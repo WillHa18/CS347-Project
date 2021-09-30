@@ -9,7 +9,7 @@
   }
 
 body {
-    font-family: serif;
+    font-family: Rubik, sans;
     background-color: lightgrey;
 }
 
@@ -22,27 +22,68 @@ body {
     font-size: 20px;
 }
 
+#capText{
+    padding-top: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
 .evolvingskiessection {
     display: flex;
     flex-direction: row;
     background-color:lightskyblue;
+    justify-content: space-evenly;
     max-width: 9000px;
     height: 700px;
 }
 
+.evolvingskieslead {
+    background-image: url(images/rayquaza.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -350px;
+    background-position-y: -300px;
+    width: 25%;
+}
+
 #evolvingskiesheader {
+    border: solid 3px black;
+    background-color: white;
     padding: 10px;
     font-size: 40px;
-    width: 15%;
-    height: 15%;
     text-align: center;
+    margin: 50px;
+}
+#evolvingskiessleeves {
+    padding: 20px;
+    border: solid 3px black;
+    width: 20%;
+    height: 50%;
     align-self: center;
+    overflow: hidden;
+}
+
+#evolvingskiesetb {
+    padding: 20px;
+    border: solid 3px black;
+    width: 20%;
+    height: 50%;
+    align-self: center;
+    overflow: hidden;
+}
+
+#evolvingskiesboosterbox {
+    padding: 20px;
+    border: solid 3px black;
+    width: 20%;
+    height: 50%;
+    align-self: center;
+    overflow: hidden;
 }
 
 .footer {
     padding: 40px;
     background: #b9bebd;
     border: solid 3px black;
-    color: light-gray;
+    color: light-grey;
     font-family: sans-serif;
 }
