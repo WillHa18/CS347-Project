@@ -1,0 +1,48 @@
+.header {
+    padding: 40px;
+    text-align: center;
+    background: #1abc9c;
+    border: solid 3px black;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+
+body {
+    font-family: serif;
+    background-color: lightgrey;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.evolvingskiessection {
+    display: flex;
+    flex-direction: row;
+    background-color:lightskyblue;
+    max-width: 9000px;
+    height: 700px;
+}
+
+#evolvingskiesheader {
+    padding: 10px;
+    font-size: 40px;
+    width: 15%;
+    height: 15%;
+    text-align: center;
+    align-self: center;
+}
+
+.footer {
+    padding: 40px;
+    background: #b9bebd;
+    border: solid 3px black;
+    color: light-gray;
+    font-family: sans-serif;
+}
